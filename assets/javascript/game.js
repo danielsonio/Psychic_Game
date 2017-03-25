@@ -13,7 +13,7 @@ document.onkeyup = function() {
 
 if (userChoice == compChoice) {
 	winCount++;
-	guessesLeft--;	
+	guessesLeft = 9;	
 	letters.splice(0,1);
 	alert("You are correct!");
 	userPicks.length = 0;	
